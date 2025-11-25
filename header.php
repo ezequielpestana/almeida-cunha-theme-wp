@@ -10,23 +10,22 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/css/fontawesome/css/all.min.css" rel="stylesheet"/>
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class('text-zinc-900 antialiased'); ?>>
+<body class="text-white">
 <?php do_action('tailpress_site_before'); ?>
 
 <div id="page" class="min-h-screen flex flex-col">
     <?php do_action('tailpress_header'); ?>
 
-    <header class="container mx-auto py-6 bg-primary">
-        <div class="md:flex md:justify-between md:items-center ">
+    <header class="bg-primary ">
+        <div class="sm:flex sm:justify-between sm:items-center container mx-auto py-6">
 
             <!-- logo -->
             <div class="flex justify-between items-center ">
-                <div class="max-w-40">
+                <div class="max-w-30">
                     <?php if (has_custom_logo()): ?>
                         <?php the_custom_logo(); ?>
                     <?php else: ?>
@@ -43,28 +42,28 @@
                 </div>
 
                 <?php if (has_nav_menu('primary')): ?>
-                    <div class="md:hidden">
+                    <div class="sm:hidden">
                         <button type="button" aria-label="Toggle navigation" id="primary-menu-toggle">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                            </svg>
+                            <i class="fas fa-bars text-white text-3xl"></i>
                         </button>
                     </div>
                 <?php endif; ?>
             </div>
 
-            <div id="primary-navigation" class="hidden md:flex md:bg-transparent gap-6 items-center border border-light md:border-none rounded-xl p-4 md:p-0">
+
+            <!-- nav desktop -->
+            <div id="primary-navigation" class="hidden sm:flex sm:flex-col sm:bg-transparent gap-6 items-center border border-light sm:border-none rounded-xl p-4 sm:p-0">
                 <nav>
                     <?php if (current_user_can('administrator') && !has_nav_menu('primary')): ?>
-                        <a href="<?php echo esc_url(admin_url('nav-menus.php')); ?>" class="text-sm text-zinc-600"><?php esc_html_e('Edit Menus', 'tailpress'); ?></a>
+                        <a href="<?php echo esc_url(admin_url('nav-menus.php')); ?>" class="text-sm text-white"><?php esc_html_e('Edit Menus', 'tailpress'); ?></a>
                     <?php else: ?>
                         <?php
                         wp_nav_menu([
                             'container_id'    => 'primary-menu',
                             'container_class' => '',
-                            'menu_class'      => 'md:flex md:-mx-4 [&_a]:!no-underline',
+                            'menu_class'      => 'sm:flex sm:-mx-4 [&_a]:!no-underline',
                             'theme_location'  => 'primary',
-                            'li_class'        => 'md:mx-4',
+                            'li_class'        => 'sm:mx-4',
                             'fallback_cb'     => false,
                         ]);
                         ?>
