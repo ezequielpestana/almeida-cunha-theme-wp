@@ -29,54 +29,69 @@ get_header();
 
 <!-- Bloco 1: História do Escritório -->
 <div class="w-full flex justify-center bg-primary">
-    <div class="my-2 flex flex-col md:flex-row md:items-center max-w-5xl">
+    <div class="flex flex-col md:flex-row md:items-center max-w-5xl">
 
-        <div class="md:max-w-1/2 order-2 md:p-6 md2:border-r-2 border-secondary">
-            <h3 class="p-2 hidden md:block text-secondary text-2xl font-bold">Escritório</h3>
-            <p class="p-2 py-6 text-secondary">
-                Fundado em <span class="font-semibold">2016</span>, o <span class="font-semibold">Almeida Cunha Advocacia & Consultoria</span> nasceu com o propósito de oferecer uma advocacia técnica, estratégica e próxima do cliente, unindo excelência jurídica, visão prática e comprometimento com resultados concretos.
-            </p>
-            <p class="p-2 py-6 text-secondary">
-                Com sede em <span class="font-semibold">Vila Velha/ES</span>, o escritório atua de forma sólida em demandas regionais, nacionais e internacionais, prestando assessoria jurídica tanto no âmbito consultivo quanto contencioso, sempre com foco na segurança jurídica, na prevenção de conflitos e na construção de soluções eficazes.
-            </p>
+        <h2 class="md:hidden text-secondary text-2xl font-bold p-4">Sobre o Escritório</h2>
+
+        <div class="md:max-w-1/2 md:flex md:flex-row order-2 md:p-6">
+            <div classs="flex flex-col">
+                <h3 class="p-2 pl-4 hidden md:block text-secondary text-2xl font-bold">Escritório</h3>
+                <p class="px-4 pt-6 text-secondary">
+                    Fundado em <span class="font-semibold">2016</span>, o <span class="font-semibold">Almeida Cunha Advocacia & Consultoria</span> nasceu com o propósito de oferecer uma advocacia técnica, estratégica e próxima do cliente, unindo excelência jurídica, visão prática e comprometimento com resultados concretos.
+                </p>
+                <p class="px-4 pt-6 pb-8 text-secondary">
+                    Com sede em <span class="font-semibold">Vila Velha/ES</span>, o escritório atua de forma sólida em demandas regionais, nacionais e internacionais, prestando assessoria jurídica tanto no âmbito consultivo quanto contencioso, sempre com foco na segurança jurídica, na prevenção de conflitos e na construção de soluções eficazes.
+                </p>
+            </div>
+            <div class="hidden self-stretch my-4 md:block w-4 bg-secondary"></div>
         </div>
 
         <!-- Espaço reservado para foto do escritório -->
-        <div class="md:max-w-1/2 order-1 rounded-md p-2 bg-secondary">
-            <div class="rounded-xl bg-light/50 aspect-[4/3] flex items-center justify-center text-secondary">
-                <img src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
+        <div class="w-full flex justify-center">
+        <div class="order-1 rounded-md p-2 bg-secondary m-2">
+            <div class="bg-light/50 aspect-[2/1] max-w-90 flex items-center justify-center text-secondary">
+                <img 
+                class="rounded-sm"
+                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
             </div>
+        </div>
         </div>
 
     </div>
 </div>
 
-<!-- Bloco 2: Sócio Fundador -->
+<!-- Bloco 2: Sócio fundador -->
+<div class="w-full flex justify-center bg-tertiary">
+    <div class="flex flex-col md:flex-row md:items-center max-w-5xl pt-6">
 
+        <h2 class="md:hidden text-secondary text-2xl font-bold p-4">Sócio fundador</h2>
 
-<div class="w-full flex justify-center bg-tertiary ?>">
-    <div class="my-2 flex flex-col md:flex-row md:items-center max-w-5xl">
-
-        <div class="md:max-w-1/2 md:p-6 order-2 md:order-1 md2:border-l-2 border-secondary">
-            <h3 class="p-2 hidden md:block text-secondary text-2xl font-bold">Sócio Fundador</h3>
-            <p class=" px-2 py-6 text-secondary md:text-left">
-                O escritório é conduzido pelo advogado <span class="font-semibold">Victor de Almeida Domingues Cunha</span>, sócio fundador, com sólida formação acadêmica e ampla experiência prática.
-            </p>
-            <p class="px-2 py-6 text-secondary md:text-left">
-                Possui estudos acadêmicos pela <span class="font-semibold">Fundação Getúlio Vargas (FGV)</span> na área do Direito do Trabalho e especialização em Direito Processual pela <span class="font-semibold">Pontifícia Universidade Católica de Minas Gerais (PUC Minas)</span>
+        <div class="md:max-w-1/2 md:flex md:flex-row md:order-1 md:p-6">
+            <div class="hidden self-stretch my-4 md:block w-4 bg-secondary"></div>
+            <div classs="flex flex-col">
+                <h3 class="p-2 pl-4 hidden md:block text-secondary text-2xl font-bold">Sócio fundador</h3>
+                <p class="px-4 pt-6 text-secondary">
+                   O escritório é conduzido pelo advogado <span class="font-semibold">Victor de Almeida Domingues Cunha</span>, sócio fundador, com sólida formação acadêmica e ampla experiência prática.
+                </p>
+                <p class="px-4 pt-6 pb-8 text-secondary">
+                   Possui estudos acadêmicos pela <span class="font-semibold">Fundação Getúlio Vargas (FGV)</span> na área do Direito do Trabalho e especialização em Direito Processual pela <span class="font-semibold">Pontifícia Universidade Católica de Minas Gerais (PUC Minas)</span>
                 <br><br>Também realizou intercâmbio acadêmico na Universidad de Castilla-La Mancha, na Espanha, ampliando sua formação jurídica com uma visão internacional do Direito..
-            </p>
-        </div>
-
-        <!-- Espaço reservado para foto do sócio -->
-        <div class="md:max-w-1/2 order-1 md:order-2 ">
-            <h3 class="p-2 md:hidden text-secondary text-lg font-bold">Sócio Fundador</h3>
-            <div class="rounded-xl bg-secondary flex items-center justify-center text-secondary p-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
+                </p>
             </div>
         </div>
+
+        <!-- Espaço reservado para foto do escritório -->
+        <div class="w-full flex justify-center md:order-2 pb-10">
+        <div class="rounded-md p-2 bg-secondary m-2">
+            <div class="bg-light/50 aspect-[2/1] max-w-90 flex items-center justify-center text-secondary">
+                <img 
+                class="rounded-sm"
+                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
+            </div>
+        </div>
+        </div>
+
     </div>
-</div>
 </div>
 
 
