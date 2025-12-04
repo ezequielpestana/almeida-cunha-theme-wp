@@ -8,4 +8,22 @@ window.addEventListener('load', function () {
             mainNavigation.classList.toggle('hidden')
         })
     }
+
+    // Espaçamento header
+    const header = document.querySelector('header')
+    const spacing = document.getElementById('spacing')
+
+    const setHeaderSpacing = () =>{
+        if(header && page){
+            const headerHeight = header.offsetHeight;
+            spacing.style.paddingTop = headerHeight + 'px'
+         }
+        }
+
+    
+
+    setHeaderSpacing()
+
+    window.addEventListener('resize', setHeaderSpacing)
+    
 })

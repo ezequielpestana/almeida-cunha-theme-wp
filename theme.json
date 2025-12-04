@@ -16,7 +16,12 @@
         {
           "name": "Secondary",
           "slug": "secondary",
-          "color": "#fdfeff"
+          "color": "#9a9b9f"
+        },
+        {
+          "name": "Tertiary",
+          "slug": "tertiary",
+          "color": "#5c7683"
         },
         {
           "name": "Dark",
