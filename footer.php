@@ -13,7 +13,7 @@
 
     <?php do_action('tailpress_content_after'); ?>
 
-    <footer id="colophon" class="flex bg-white @container" role="contentinfo">
+    <footer id="colophon" class="flex bg-tertiary text-white @container" role="contentinfo">
             <div class="container w-full @md:flex">
                 <?php do_action('tailpress_footer'); ?>
                 <div class="@md:max-w-1/2">
@@ -23,7 +23,7 @@
                     <p class="font-light my-2"><span class="font-semibold">Contato:</span> (27) 9 8811-4221 - (27) 3141-6460</p>
                 </div>
 
-                <div class=" text-sm pb-20 text-zinc-700 text-center py-4 w-full @md:max-w-1/2 @md:flex @md:justify-center @md:items-center">
+                <div class=" text-sm pb-20  text-center py-4 w-full @md:max-w-1/2 @md:flex @md:justify-center @md:items-center">
                     &copy; <?php echo esc_html(date_i18n('Y')); ?> - <?php bloginfo('name'); ?>
                 </div>
     </div>

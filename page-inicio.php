@@ -39,11 +39,11 @@
 </div>
 
 <!-- imagens -->
-<div class="bg-secondary w-full px-4 pb-10">
+<div class="bg-primary w-full px-4 pb-10">
     <div class="flex flex-col items-center max-w-1/0 ">
 
         <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
-            <div class=" md:max-w-1/2  md:order-2 md:p-6 md2:border-r-2 border-primary">       
+            <div class=" md:max-w-1/2  md:order-2 md:p-6 md2:border-r-2 border-white">       
                 <p class="p-2 py-6 text-white "><span class="text-white text-lg font-semibold">Vila Velha/ES</span> é o nosso ponto de partida e também o cenário das histórias que ajudamos a proteger.</p>
             </div>
             <div class=" md:max-w-1/2  md:order-1  rounded-md p-2 bg-white">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
-            <div class="md:max-w-1/2 md:p-6 md2:border-l-2 border-primary"> 
+            <div class="md:max-w-1/2 md:p-6 md2:border-l-2 border-white"> 
                 <p class="p-2 py-6 text-white md:text-right">Atuamos com dedicação às demandas regionais, nacionais, e internacionais. <br><br>Acolhendo cada caso com atenção individual e compromisso com resultados consistentes.</p>
             </div>  
             <div class="md:max-w-1/2 rounded-md p-2 bg-white"> 
