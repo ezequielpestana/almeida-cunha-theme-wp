@@ -9,19 +9,24 @@
     "color": {
       "palette": [
         {
-          "name": "Primary",
+          "name": "Primary", 
           "slug": "primary",
           "color": "#004d6a"
         },
         {
-          "name": "Secondary",
+          "name": "Secondary", 
           "slug": "secondary",
-          "color": "#9a9b9f"
+          "color": "#ffffff"
         },
         {
-          "name": "Tertiary",
+          "name": "Tertiary", 
           "slug": "tertiary",
           "color": "#5c7683"
+        },
+        {
+          "name" : "Quaternary", 
+          "slug" : "quaternary",
+          "color" : "#dbdbdb"
         },
         {
           "name": "Dark",

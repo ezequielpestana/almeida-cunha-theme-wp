@@ -22,13 +22,13 @@
     </style>
     <?php wp_head(); ?>
 </head>
-<body class="text-black">
+<body class="text-primary">
 <?php do_action('tailpress_site_before'); ?>
 
 <div id="page" class="min-h-screen flex flex-col">
     <?php do_action('tailpress_header'); ?>
 
-    <header class="fixed w-full bg-white text-white shadow-md z-50">
+    <header class="fixed w-full text-secondary bg-secondary shadow-md z-50">
         <div class="sm:flex sm:justify-between sm:items-center container mx-auto py-6">
 
             <!-- logo -->
@@ -42,8 +42,8 @@
                                 <?php bloginfo('name'); ?>
                             </a>
                             <?php if ($description = get_bloginfo('description')): ?>
-                                <span class="text-sm font-light text-dark/80">|</span>
-                                <span class="text-sm font-light text-dark/80"><?php echo esc_html($description); ?></span>
+                                <span class="text-sm font-light text-primary">|</span>
+                                <span class="text-sm font-light text-primary"><?php echo esc_html($description); ?></span>
                             <?php endif; ?>
                         </div>
                     <?php endif; ?>

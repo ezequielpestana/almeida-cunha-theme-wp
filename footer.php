@@ -13,7 +13,7 @@
 
     <?php do_action('tailpress_content_after'); ?>
 
-    <footer id="colophon" class="flex bg-tertiary text-white @container" role="contentinfo">
+    <footer id="colophon" class="flex bg-tertiary text-secondary @container" role="contentinfo">
             <div class="container w-full @md:flex">
                 <?php do_action('tailpress_footer'); ?>
                 <div class="@md:max-w-1/2">

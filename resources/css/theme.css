@@ -7,9 +7,12 @@
     --breakpoint-xl: 1280px;
     --breakpoint-2xl: 1440px;
 
-    --color-primary: var(--wp--preset--color--primary);
-    --color-secondary: var(--wp--preset--color--secondary);
-    --color-tertiary: var(--wp--preset--color--tertiary);
+    --color-primary: var(--wp--preset--color--primary); /* azul*/
+    --color-secondary: var(--wp--preset--color--secondary); /* branco */
+    --color-tertiary: var(--wp--preset--color--tertiary); /* azul acinzentado */
+    --color-quaternary: var(--wp--preset--color--quaternary); /* cinza */
+
+
     --color-dark: var(--wp--preset--color--dark);
     --color-light: var(--wp--preset--color--light);
 

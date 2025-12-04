@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-white p-2 text-center">
+    <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-secondary p-2 text-center">
         <div class="flex items-center max-w-sm">
             <p class="text-sm p-6">
                 <span class="font-bold">Advocacia e consultoria</span> com atuação bilíngue, focada em estratégia, prevenção de riscos e soluções 
@@ -44,18 +44,18 @@
 
         <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
             <div class=" md:max-w-1/2  md:order-2 md:p-6 md2:border-r-2 border-white">       
-                <p class="p-2 py-6 text-white "><span class="text-white text-lg font-semibold">Vila Velha/ES</span> é o nosso ponto de partida e também o cenário das histórias que ajudamos a proteger.</p>
+                <p class="p-2 py-6 text-secondary "><span class="text-secondary text-lg font-semibold">Vila Velha/ES</span> é o nosso ponto de partida e também o cenário das histórias que ajudamos a proteger.</p>
             </div>
-            <div class=" md:max-w-1/2  md:order-1  rounded-md p-2 bg-white">
+            <div class=" md:max-w-1/2  md:order-1  rounded-md p-2 bg-secondary">
                 <img class="rounded-xl " src="<?php echo get_template_directory_uri(); ?>/resources/images/01.jpg" alt="Praia de itapuã vila velha es">
             </div>
         </div>
 
         <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
             <div class="md:max-w-1/2 md:p-6 md2:border-l-2 border-white"> 
-                <p class="p-2 py-6 text-white md:text-right">Atuamos com dedicação às demandas regionais, nacionais, e internacionais. <br><br>Acolhendo cada caso com atenção individual e compromisso com resultados consistentes.</p>
+                <p class="p-2 py-6 text-secondary md:text-right">Atuamos com dedicação às demandas regionais, nacionais, e internacionais. <br><br>Acolhendo cada caso com atenção individual e compromisso com resultados consistentes.</p>
             </div>  
-            <div class="md:max-w-1/2 rounded-md p-2 bg-white"> 
+            <div class="md:max-w-1/2 rounded-md p-2 bg-secondary"> 
                 <img class="rounded-xl" src="<?php echo get_template_directory_uri(); ?>/resources/images/02.jpg" alt="Vista da Terceira Ponte e do Morro do Moreno a partir do Convento da Penha, Vila Velha ES">
             </div>
         </div>
