@@ -26,7 +26,7 @@
 </div>
 
 <!-- Serviços -->
-<div class="bg-secondary w-full px-4 py-10">
+<div class="bg-quaternary w-full px-4 py-10">
     <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -53,10 +53,10 @@
                         <i class="fas fa-leaf text-3xl text-secondary"></i>
                     </div>
                     <h3 class="text-primary text-2xl font-bold mb-4">Direito Ambiental</h3>
-                    <p class="text-secondary text-sm mb-3">
+                    <p class="text-primary text-sm mb-3">
                         Assessoria jurídica completa em matérias ambientais, envolvendo <span class="font-semibold">licenciamento, regularização de empreendimentos, autos de infração, defesa em processos administrativos e judiciais</span>.
                     </p>
-                    <p class="text-secondary text-sm">
+                    <p class="text-primary text-sm">
                         Além de consultoria preventiva para empresas e proprietários rurais ou urbanos, garantindo conformidade legal e sustentabilidade das atividades.
                     </p>
                 </div>
@@ -69,10 +69,10 @@
                         <i class="fas fa-home text-3xl text-primary md:text-secondary"></i>
                     </div>
                     <h3 class="text-secondary md:text-primary text-2xl font-bold mb-4">Direito de Família</h3>
-                    <p class="text-secondary md:text-secondary text-sm mb-3">
+                    <p class="text-secondary md:text-primary text-sm mb-3">
                         Atuação técnica, sensível e estratégica em demandas de Direito de Família, incluindo <span class="font-semibold">divórcios, pensão alimentícia, guarda, regulamentação de convivência, partilha de bens, reconhecimento e dissolução de união estável</span>.
                     </p>
-                    <p class="text-secondary md:text-secondary text-sm">
+                    <p class="text-secondary md:text-primary text-sm">
                         Bem como inventários judiciais e, com especialização, <span class="font-semibold">inventários extrajudiciais realizados em cartório</span>, proporcionando maior celeridade, economia e segurança jurídica às famílias. O escritório prioriza sempre soluções equilibradas, responsáveis e juridicamente seguras.
                     </p>
                 </div>
@@ -117,10 +117,10 @@
                         <i class="fas fa-briefcase text-3xl text-secondary"></i>
                     </div>
                     <h3 class="text-primary text-2xl font-bold mb-4">Direito do Trabalho</h3>
-                    <p class="text-secondary text-sm mb-3">
+                    <p class="text-primary text-sm mb-3">
                         Atuação completa no âmbito trabalhista, tanto na <span class="font-semibold">defesa de empregadores quanto de trabalhadores</span>, abrangendo ações reclamatórias, acordos, defesas, recursos, consultoria preventiva, auditorias trabalhistas.
                     </p>
-                    <p class="text-secondary text-sm">
+                    <p class="text-primary text-sm">
                         Estruturação de rotinas internas com foco na redução de passivos e segurança jurídica.
                     </p>
                 </div>

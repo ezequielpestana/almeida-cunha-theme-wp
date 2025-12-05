@@ -28,7 +28,7 @@
 <div id="page" class="min-h-screen flex flex-col">
     <?php do_action('tailpress_header'); ?>
 
-    <header class="fixed w-full text-secondary bg-secondary shadow-md z-50">
+    <header class="fixed w-full max-w-full text-secondary bg-secondary shadow-md z-50">
         <div class="sm:flex sm:justify-between sm:items-center container mx-auto py-6">
 
             <!-- logo -->
