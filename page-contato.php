@@ -26,14 +26,14 @@ get_header();
 
 <!-- Conteúdo Principal: Formulário e Informações -->
 <div class="bg-quaternary w-full px-4 py-10">
-    <div class="max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div class="max-w-2xl mx-auto">
+        <div class="grid grid-cols-1 gap-8">
 
             <!-- Formulário de Contato -->
-            <div class="bg-primary rounded-lg shadow-lg p-8">
+            <div class="bg-primary text-secondary rounded-lg shadow-lg p-8">
                 <h3 class="text-secondary text-2xl font-bold mb-6">Formulário de Contato</h3>
                 
-                <form id="contact-form" class="space-y-4">
+                <form id="contact-form text-secondary" class="space-y-4">
                     <!-- Nome -->
                     <div>
                         <label for="nome" class="block text-secondary text-sm font-semibold mb-2">
@@ -77,30 +77,6 @@ get_header();
                             class="w-full px-4 py-3 rounded-lg border-2 border-secondary/20 focus:border-secondary focus:outline-none transition-colors"
                             placeholder="(27) 9 8811-4221"
                         >
-                    </div>
-
-                    <!-- Assunto -->
-                    <div>
-                        <label for="assunto" class="block text-secondary text-sm font-semibold mb-2">
-                            Assunto <span class="text-red-500">*</span>
-                        </label>
-                        <select 
-                            id="assunto" 
-                            name="assunto" 
-                            required
-                            class="w-full px-4 py-3 rounded-lg border-2 border-secondary/20 focus:border-secondary focus:outline-none transition-colors"
-                        >
-                            <option value="">Selecione um assunto</option>
-                            <option value="direito-civil">Direito Civil</option>
-                            <option value="direito-ambiental">Direito Ambiental</option>
-                            <option value="direito-familia">Direito de Família</option>
-                            <option value="comercio-internacional">Comércio Internacional</option>
-                            <option value="direito-consumidor">Direito do Consumidor</option>
-                            <option value="direito-trabalho">Direito do Trabalho</option>
-                            <option value="direito-previdenciario">Direito Previdenciário</option>
-                            <option value="consultoria">Consultoria Jurídica</option>
-                            <option value="outro">Outro</option>
-                        </select>
                     </div>
 
                     <!-- Mensagem -->
@@ -149,51 +125,6 @@ get_header();
                 
                 <!-- Informações de Contato -->
                 <div class="bg-secondary border-2 border-primary rounded-lg shadow-lg p-8">
-                    <h3 class="text-primary text-2xl font-bold mb-6">Informações de Contato</h3>
-                    
-                    <div class="space-y-4">
-                        <!-- Endereço -->
-                        <div class="flex items-start">
-                            <div class="flex items-center justify-center w-10 h-10 bg-primary rounded-full mr-4 flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-secondary"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-primary font-semibold mb-1">Endereço</h4>
-                                <p class="text-primary text-sm">
-                                    Rua Cabo Aylson Simões, 560 - Sala 607<br>
-                                    Centro - Vila Velha / ES<br>
-                                    CEP: 29.100-320
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Telefone -->
-                        <div class="flex items-start">
-                            <div class="flex items-center justify-center w-10 h-10 bg-primary rounded-full mr-4 flex-shrink-0">
-                                <i class="fas fa-phone text-secondary"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-primary font-semibold mb-1">Telefone</h4>
-                                <p class="text-primary text-sm">
-                                    (27) 3141-6460<br>
-                                    (27) 9 8811-4221 <span class="text-xs">(WhatsApp)</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- E-mail -->
-                        <div class="flex items-start">
-                            <div class="flex items-center justify-center w-10 h-10 bg-primary rounded-full mr-4 flex-shrink-0">
-                                <i class="fas fa-envelope text-secondary"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-primary font-semibold mb-1">E-mail</h4>
-                                <p class="text-primary text-sm">
-                                    contato@almeidacunha.adv.br
-                                </p>
-                            </div>
-                        </div>
-
                         <!-- Horário de Atendimento -->
                         <div class="flex items-start">
                             <div class="flex items-center justify-center w-10 h-10 bg-primary rounded-full mr-4 flex-shrink-0">
@@ -208,13 +139,13 @@ get_header();
                                 </p>
                             </div>
                         </div>
-                    </div>
+                
 
                     <!-- WhatsApp CTA -->
-                    <div class="mt-6 pt-6 border-t-2 border-primary/20">
-                        <a href="https://wa.me/5527988114221" target="_blank" class="flex items-center justify-center bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors duration-300">
+                    <div class="mt-6 pt-6 border-t-2">
+                        <a style="text-decoration: none;" href="https://wa.me/5527988114221" target="_blank" class="flex items-center justify-center bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors duration-300">
                             <i class="fab fa-whatsapp text-2xl mr-2"></i>
-                            <span>Fale conosco pelo WhatsApp</span>
+                            <span class="underline">Fale conosco pelo WhatsApp</span>
                         </a>
                     </div>
                 </div>
@@ -225,12 +156,7 @@ get_header();
                     <div class="w-full h-80 bg-secondary/10 rounded-lg flex items-center justify-center">
                         <!-- Placeholder para o Google Maps Embed -->
                         <div id="map-container" class="w-full h-full rounded-lg overflow-hidden">
-                            <p class="text-secondary text-center p-4">
-                                <i class="fas fa-map-marked-alt text-4xl mb-2"></i><br>
-                                <span class="text-sm">Cole aqui o código embed do Google Maps</span>
-                            </p>
-                           
-                            
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.1208141062607!2d-40.299345014235065!3d-20.336627102468228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8163bf0028855%3A0x627974a206b74732!2sCondom%C3%ADnio%20do%20Edif%C3%ADcio%20Ant%C3%B4nio%20Saliba!5e0!3m2!1spt-BR!2sbr!4v1764953464268!5m2!1spt-BR!2sbr" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

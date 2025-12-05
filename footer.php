@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-full items-start lg:pl-8">
+            <div class="flex flex-col w-full items-start">
                 <?php //icone 
                 ?>
                 <div class="flex items-center">
@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-1/2 items-start lg:pt-4">
+            <div class="flex flex-col w-1/2 items-start">
                 <?php //icone 
                 ?>
                 <div class="flex items-center ">
@@ -73,6 +73,31 @@
                     <p class="font-light my-2">(27) 9 8811-4221 <br> (27) 3141-6460</p>
                 </div>
             </div>
+
+            <div class="flex flex-col w-full items-start">
+                <?php //icone 
+                ?>
+                <div class="flex items-center ">
+                    <div class="flex justify-center items-center w-8 h-8 rounded-full bg-primary"></i>
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <span class="font-semibold pl-2">Empresa</span>
+                </div>
+
+                <?php //texto 
+                ?>
+                <div class="w-full pl-2 my-2">
+                    <p>Nome: Almeida Cunha</p>
+                    <p>CNPJ: 26.951.544/0001-22</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            
 
 
 
