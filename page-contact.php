@@ -1,4 +1,4 @@
-<?php /* Template Name: Page Contato */
+<?php /* Template Name: Page Contact */
 get_header();
 ?>
 
@@ -8,9 +8,9 @@ get_header();
         <div class="hidden w-1/2 border-l-8 border-primary @md:pl-4 @4xl:block"></div>
         
         <div class="py-2 px-2 @4xl:w-1/2">
-            <h1 class="font-bold text-3xl">Entre em Contato</h1>
+            <h1 class="font-bold text-3xl">Get in Touch</h1>
             <h2 class="text-sm font-bold mt-2">
-                Estamos prontos para atender você com excelência e dedicação.
+                We are ready to serve you with excellence and dedication.
             </h2>
         </div>
     </div>
@@ -18,7 +18,7 @@ get_header();
     <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-secondary p-2 text-center">
         <div class="flex items-center max-w-sm">
             <p class="text-sm p-6">
-                Envie sua mensagem e nossa equipe entrará em contato para oferecer a <span class="font-bold">melhor solução jurídica</span> para o seu caso.
+                Send us your message and our team will contact you to offer the <span class="font-bold">best legal solution</span> for your case.
             </p>
         </div>
     </div>
@@ -31,13 +31,13 @@ get_header();
 
             <!-- Formulário de Contato -->
             <div class="bg-primary text-secondary rounded-lg shadow-lg p-8">
-                <h3 class="text-secondary text-2xl font-bold mb-6">Formulário de Contato</h3>
+                <h3 class="text-secondary text-2xl font-bold mb-6">Contact Form</h3>
                 
                 <form id="contact-form text-secondary" class="space-y-4">
                     <!-- Nome -->
                     <div>
                         <label for="nome" class="block text-secondary text-sm font-semibold mb-2">
-                            Nome Completo <span class="text-red-500">*</span>
+                            Full Name <span class="text-red-500">*</span>
                         </label>
                         <input 
                             type="text" 
@@ -45,7 +45,7 @@ get_header();
                             name="nome" 
                             required
                             class="w-full px-4 py-3 rounded-lg border-2 border-secondary/20 focus:border-secondary focus:outline-none transition-colors"
-                            placeholder="Seu nome completo"
+                            placeholder="Your full name"
                         >
                     </div>
 
@@ -75,14 +75,14 @@ get_header();
                             name="telefone" 
                             required
                             class="w-full px-4 py-3 rounded-lg border-2 border-secondary/20 focus:border-secondary focus:outline-none transition-colors"
-                            placeholder="(99) 9999-9999"
+                            placeholder="(99) 9 9999-9999"
                         >
                     </div>
 
                     <!-- Mensagem -->
                     <div>
                         <label for="mensagem" class="block text-secondary text-sm font-semibold mb-2">
-                            Descreva seu caso <span class="text-red-500">*</span>
+                            Describe your case <span class="text-red-500">*</span>
                         </label>
                         <textarea 
                             id="mensagem" 
@@ -90,7 +90,7 @@ get_header();
                             required
                             rows="5"
                             class="w-full px-4 py-3 rounded-lg border-2 border-secondary/20 focus:border-secondary focus:outline-none transition-colors resize-none"
-                            placeholder="Conte-nos um pouco sobre o seu caso ou dúvida..."
+                            placeholder="Tell us a little about your case or question..."
                         ></textarea>
                     </div>
 
@@ -104,8 +104,8 @@ get_header();
                             class="mt-1 mr-3 h-4 w-4 rounded border-secondary/20 text-secondary focus:ring-secondary"
                         >
                         <label for="privacidade" class="text-secondary text-xs">
-                            Concordo com a <a href="#" class="font-semibold underline hover:text-secondary/80">Política de Privacidade</a> 
-                            e autorizo o tratamento dos meus dados pessoais conforme a Lei Geral de Proteção de Dados (LGPD). <span class="text-red-500">*</span>
+                            I agree with the <a href="#" class="font-semibold underline hover:text-secondary/80">Privacy Policy</a> 
+                            and authorize the processing of my personal data in accordance with the General Data Protection Law (LGPD). <span class="text-red-500">*</span>
                         </label>
                     </div>
 
@@ -115,7 +115,7 @@ get_header();
                         class="w-full bg-secondary text-primary font-bold py-4 px-8 rounded-lg hover:bg-secondary/90 transition-colors duration-300 flex items-center justify-center"
                     >
                         <i class="fa-solid fa-paper-plane mr-2"></i>
-                        Enviar Mensagem
+                        Send Message
                     </button>
                 </form>
             </div>
@@ -131,11 +131,11 @@ get_header();
                                 <i class="fas fa-clock text-secondary"></i>
                             </div>
                             <div>
-                                <h4 class="text-primary font-semibold mb-1">Horário de Atendimento</h4>
+                                <h4 class="text-primary font-semibold mb-1">Business Hours</h4>
                                 <p class="text-primary text-sm">
-                                    Segunda a Sexta: 09:00 às 18:00<br>
-                                    Sábado e Domingo: Fechado<br>
-                                    <span class="text-xs italic">Atendimento mediante agendamento</span>
+                                    Monday to Friday: 09:00 AM to 06:00 PM<br>
+                                    Saturday and Sunday: Closed<br>
+                                    <span class="text-xs italic">Service by appointment</span>
                                 </p>
                             </div>
                         </div>
@@ -145,14 +145,14 @@ get_header();
                     <div class="mt-6 pt-6 border-t-2">
                         <a style="text-decoration: none;" href="https://wa.me/5527988114221" target="_blank" class="flex items-center justify-center bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors duration-300">
                             <i class="fab fa-whatsapp text-2xl mr-2"></i>
-                            <span class="underline">Fale conosco pelo WhatsApp</span>
+                            <span class="underline">Contact us via WhatsApp</span>
                         </a>
                     </div>
                 </div>
 
                 <!-- Mapa -->
                 <div class="bg-primary rounded-lg shadow-lg p-4">
-                    <h3 class="text-secondary text-xl font-bold mb-4">Localização</h3>
+                    <h3 class="text-secondary text-xl font-bold mb-4">Location</h3>
                     <div class="w-full h-80 bg-secondary/10 rounded-lg flex items-center justify-center">
                         <!-- Placeholder para o Google Maps Embed -->
                         <div id="map-container" class="w-full h-full rounded-lg overflow-hidden">
@@ -183,18 +183,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const privacidade = document.getElementById('privacidade').checked;
         
         if (!nome || !email || !telefone || !assunto || !mensagem || !privacidade) {
-            alert('Por favor, preencha todos os campos obrigatórios e aceite a Política de Privacidade.');
+            alert('Please fill in all required fields and accept the Privacy Policy.');
             return;
         }
         
-        // Aqui você pode adicionar a integração com um plugin de formulário
-        // como Contact Form 7, WPForms, Gravity Forms, etc.
+        // Here you can add integration with a form plugin
+        // such as Contact Form 7, WPForms, Gravity Forms, etc.
         
-        alert('Formulário enviado com sucesso! Em breve entraremos em contato.');
+        alert('Form submitted successfully! We will contact you soon.');
         form.reset();
     });
     
-    // Máscara para telefone (opcional - pode melhorar com uma biblioteca)
+    // Phone mask (optional - can be improved with a library)
     const telefoneInput = document.getElementById('telefone');
     telefoneInput.addEventListener('input', function(e) {
         let value = e.target.value.replace(/\D/g, '');

@@ -33,20 +33,36 @@
 
             <!-- logo -->
             <div class="flex justify-between items-center ">
-                <div class="max-w-40 md2:max-w-45">
-                    <?php if (has_custom_logo()): ?>
-                        <?php the_custom_logo(); ?>
-                    <?php else: ?>
-                        <div class="flex items-center gap-2">
-                            <a href="<?php echo esc_url(home_url('/')); ?>" class="!no-underline lowercase font-medium text-lg">
-                                <?php bloginfo('name'); ?>
+                <div class="flex flex-col gap-2">
+                    <div class="max-w-40 md2:max-w-45">
+                        <?php if (has_custom_logo()): ?>
+                            <?php the_custom_logo(); ?>
+                        <?php else: ?>
+                            <div class="flex items-center gap-2">
+                                <a href="<?php echo esc_url(home_url('/')); ?>" class="!no-underline lowercase font-medium text-lg">
+                                    <?php bloginfo('name'); ?>
+                                </a>
+                                <?php if ($description = get_bloginfo('description')): ?>
+                                    <span class="text-sm font-light text-primary">|</span>
+                                    <span class="text-sm font-light text-primary"><?php echo esc_html($description); ?></span>
+                                <?php endif; ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                    
+                    <!-- Language Switcher -->
+                    <div class="flex justify-center gap-3 p-2 bg-primary rounded-sm mx-auto">
+                        <div>
+                            <a href="<?php get_home_url()?>/inicio">
+                            <img class ="w-5 h-5" src="<?php echo get_template_directory_uri()?>/resources\images\Paises\01.png"></img>
                             </a>
-                            <?php if ($description = get_bloginfo('description')): ?>
-                                <span class="text-sm font-light text-primary">|</span>
-                                <span class="text-sm font-light text-primary"><?php echo esc_html($description); ?></span>
-                            <?php endif; ?>
                         </div>
-                    <?php endif; ?>
+                        <div>
+                            <a href="<?php get_home_url()?>/en/home">
+                            <img class ="w-5 h-5" src="<?php echo get_template_directory_uri()?>/resources\images\Paises\02.png"></img>
+                                </a>
+                        </div>
+                    </div>
                 </div>
 
                 <?php if (has_nav_menu('primary')): ?>

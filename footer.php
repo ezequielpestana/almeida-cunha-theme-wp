@@ -33,7 +33,7 @@
                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-primary"></i>
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <span class="font-semibold pl-2">Endereço</span>
+                    <span class="font-semibold pl-2">Endereço / Address</span>
                 </div>
 
                 <?php //texto 
@@ -50,7 +50,7 @@
                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-primary"></i>
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <span class="font-semibold pl-2">Email</span>
+                    <span class="font-semibold pl-2">E-mail</span>
                 </div>
 
                 <?php //texto 
@@ -67,7 +67,7 @@
                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-primary"></i>
                         <i class="fas fa-phone"></i>
                     </div>
-                    <span class="font-semibold pl-2">Contato</span>
+                    <span class="font-semibold pl-2">Contato / Contact</span>
                 </div>
                 <div class="w-full pl-2">
                     <p class="font-light my-2">(27) 9 8811-4221 <br> (27) 3141-6460</p>
@@ -81,13 +81,13 @@
                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-primary"></i>
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <span class="font-semibold pl-2">Empresa</span>
+                    <span class="font-semibold pl-2">Empresa / Company</span>
                 </div>
 
                 <?php //texto 
                 ?>
                 <div class="w-full pl-2 my-2">
-                    <p>Nome: Almeida Cunha</p>
+                    <p>Nome / Name: Almeida Cunha</p>
                     <p>CNPJ: 26.951.544/0001-22</p>
                 </div>
             </div>

@@ -16,7 +16,10 @@ function tailpress(): TailPress\Framework\Theme
             ->enqueueAssets()
         )
         ->features(fn($manager) => $manager->add(TailPress\Framework\Features\MenuOptions::class))
-        ->menus(fn($manager) => $manager->add('primary', __( 'Primary Menu', 'tailpress')))
+        ->menus(fn($manager) => $manager
+            ->add('primary', __( 'Primary Menu', 'tailpress'))
+            ->add('switch-language', __( 'Switch Language', 'tailpress'))
+        )
         ->themeSupport(fn($manager) => $manager->add([
             'title-tag',
             'custom-logo',
