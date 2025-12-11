@@ -47,7 +47,7 @@
                 <p class="p-2 py-6 text-secondary "><span class="text-secondary text-lg font-semibold">Vila Velha/ES</span> It is our starting point and also the setting for the stories we help to protect.</p>
             </div>
             <div class=" md:max-w-1/2  md:order-1  rounded-md p-2 bg-secondary">
-                <img class="rounded-xl " src="<?php echo get_template_directory_uri(); ?>/resources/images/01.jpg" alt="Praia de itapuã vila velha es">
+                <img class="rounded-xl " src="<?php echo get_template_directory_uri(); ?>/resources/images/01.png" alt="Praia de itapuã vila velha es">
             </div>
         </div>
 
@@ -56,7 +56,7 @@
                 <p class="p-2 py-6 text-secondary md:text-right">We work diligently to meet regional, national, and international demands. <br><br>We approach each case with individual attention and a commitment to consistent results.</p>
             </div>  
             <div class="md:max-w-1/2 rounded-md p-2 bg-secondary"> 
-                <img class="rounded-xl" src="<?php echo get_template_directory_uri(); ?>/resources/images/02.jpg" alt="Vista da Terceira Ponte e do Morro do Moreno a partir do Convento da Penha, Vila Velha ES">
+                <img class="rounded-xl" src="<?php echo get_template_directory_uri(); ?>/resources/images/02.png" alt="Vista da Terceira Ponte e do Morro do Moreno a partir do Convento da Penha, Vila Velha ES">
             </div>
         </div>
     </div>

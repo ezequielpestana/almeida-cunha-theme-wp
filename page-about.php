@@ -52,7 +52,7 @@ get_header();
             <div class="bg-light/50 aspect-[2/1] max-w-90 flex items-center justify-center text-secondary">
                 <img 
                 class="rounded-sm"
-                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
+                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.png"></img>
             </div>
         </div>
         </div>
@@ -86,7 +86,7 @@ get_header();
             <div class="bg-light/50 aspect-[2/1] max-w-90 flex items-center justify-center text-secondary">
                 <img 
                 class="rounded-sm"
-                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.jpg"></img>
+                src="<?php echo get_template_directory_uri(); ?>/resources/images/quem-somos/01.png"></img>
             </div>
         </div>
         </div>
