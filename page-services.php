@@ -1,4 +1,4 @@
-<?php /* Template Name: Page Services */
+<?php /* Template Name: Page Servicos */
     get_header();
 ?>
 
@@ -8,9 +8,9 @@
         <div class="hidden w-1/2 border-l-8 border-primary @md:pl-4 @4xl:block"></div>
         
         <div class="py-2 px-2 @4xl:w-1/2">
-            <h1 class="font-bold text-3xl">Our Services</h1>
+            <h1 class="font-bold text-3xl"><?php the_field('titulo_hero_servicos')?></h1>
             <h2 class="text-sm font-bold mt-2">
-                Complete, strategic, and customized legal solutions.
+                <?php the_field('subtitulo_hero_servicos')?>
             </h2>
         </div>
     </div>
@@ -18,12 +18,11 @@
     <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-secondary p-2 text-center">
         <div class="flex items-center max-w-sm">
             <p class="text-sm p-6">
-                <span class="font-bold">Technical and strategic performance</span> in various areas of law, always focused on <span class="font-bold">prevention, legal certainty and results</span>.
+                <?php the_field('descricao_banner_servicos') ?>
             </p>
         </div>
     </div>
 </div>
-
 <!-- Serviços -->
 <div class="bg-quaternary w-full px-4 py-10">
     <div class="max-w-6xl mx-auto">
@@ -35,12 +34,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-full mb-4">
                         <i class="fas fa-balance-scale text-3xl text-primary"></i>
                     </div>
-                    <h3 class="text-secondary text-2xl font-bold mb-4">Civil Law</h3>
+                    <h3 class="text-secondary text-2xl font-bold mb-4"><?php the_field('titulo_direito_civil'); ?></h3>
                     <p class="text-secondary text-sm mb-3">
-                        Broad and strategic involvement in civil relations, including <span class="font-semibold">Contracts, civil liability, obligations, real rights, indemnities, collections, possession and ownership.</span>.
+                        <?php the_field('descricao_direito_civil_1'); ?>
                     </p>
                     <p class="text-secondary text-sm">
-                        The firm works both in conflict prevention and in conducting judicial and extrajudicial proceedings, always focusing on legal security and protecting the client's assets.
+                        <?php the_field('descricao_direito_civil_2'); ?>
                     </p>
                 </div>
             </div>
@@ -51,12 +50,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-primary rounded-full mb-4">
                         <i class="fas fa-leaf text-3xl text-secondary"></i>
                     </div>
-                    <h3 class="text-primary text-2xl font-bold mb-4">Environmental Law</h3>
+                    <h3 class="text-primary text-2xl font-bold mb-4"><?php the_field('titulo_direito_ambiental') ?></h3>
                     <p class="text-primary text-sm mb-3">
-                        Comprehensive legal counsel in environmental matters, including <span class="font-semibold">licensing, project regularization, infraction notices, and defense in administrative and judicial proceedings.</span>.
+                        <?php the_field('direito_ambiental_paragrafo_1') ?>
                     </p>
                     <p class="text-primary text-sm">
-                        In addition to providing preventative consulting services for companies and rural or urban landowners, ensuring legal compliance and sustainability of activities.
+                        <?php the_field('direito_ambiental_2') ?>
                     </p>
                 </div>
             </div>
@@ -67,12 +66,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-secondary md:bg-primary rounded-full mb-4">
                         <i class="fas fa-home text-3xl text-primary md:text-secondary"></i>
                     </div>
-                    <h3 class="text-secondary md:text-primary text-2xl font-bold mb-4">Family Law</h3>
+                    <h3 class="text-secondary md:text-primary text-2xl font-bold mb-4"><?php the_field('titulo_direito_de_familia')?></h3>
                     <p class="text-secondary md:text-primary text-sm mb-3">
-                        Technical, sensitive, and strategic representation in Family Law matters, including <span class="font-semibold">divorces, alimony, custody, visitation rights, division of assets, recognition and dissolution of common-law marriage.</span>.
+                        <?php the_field('direito_de_familia_paragrafo_1') ?>
                     </p>
                     <p class="text-secondary md:text-primary text-sm">
-                        As well as judicial inventories and, with specialization, <span class="font-semibold">extrajudicial inventories carried out in a notary's office</span>providing greater speed, cost savings, and legal security for families. The firm always prioritizes balanced, responsible, and legally sound solutions.
+                        <?php the_field('direito_de_familia_paragrafo_2') ?>
                     </p>
                 </div>
             </div>
@@ -83,12 +82,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-primary md:bg-secondary rounded-full mb-4">
                         <i class="fas fa-globe-americas text-3xl text-secondary md:text-primary"></i>
                     </div>
-                    <h3 class="text-primary md:text-secondary text-2xl font-bold mb-4">International Trade</h3>
+                    <h3 class="text-primary md:text-secondary text-2xl font-bold mb-4"><?php the_field('titulo_comercio_internacional') ?></h3>
                     <p class="text-primary md:text-secondary text-sm mb-3">
-                        Strategic legal advice in international operations, involving <span class="font-semibold">International contracts, import and export, compliance, structuring of transnational businesses.</span>.
+                        <?php the_field('comercio_internacional_paragrafo_1'); ?>
                     </p>
                     <p class="text-primary md:text-secondary text-sm">
-                        Legal risk analysis and legal support for companies operating in the foreign market, with a technical and globalized perspective.
+                        <?php the_field('comercio_internacional_paragrafo_2') ?>
                     </p>
                 </div>
             </div>
@@ -99,12 +98,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-full mb-4">
                         <i class="fas fa-shopping-cart text-3xl text-primary"></i>
                     </div>
-                    <h3 class="text-secondary text-2xl font-bold mb-4">Consumer Law</h3>
+                    <h3 class="text-secondary text-2xl font-bold mb-4"><?php the_field('titulo_direito_do_consumidor') ?></h3>
                     <p class="text-secondary text-sm mb-3">
-                        Performance in both <span class="font-semibold">consumer defense</span> and <span class="font-semibold">preventive and litigation advisory for companies</span>, in demands related to consumer relations, compensation, abusive practices, liability for defects or flaws in products and services.
+                        <?php the_field('direito_do_consumidor_paragrafo_1'); ?>
                     </p>
                     <p class="text-secondary text-sm">
-                        Action before Consumer Protection Agencies (Procons) and in the Judiciary.
+                        <?php the_field('direito_do_consumidor_paragrafo_2'); ?>
                     </p>
                 </div>
             </div>
@@ -115,12 +114,12 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-primary rounded-full mb-4">
                         <i class="fas fa-briefcase text-3xl text-secondary"></i>
                     </div>
-                    <h3 class="text-primary text-2xl font-bold mb-4">Labor Law</h3>
+                    <h3 class="text-primary text-2xl font-bold mb-4"><?php the_field('titulo_direito_do_trabalho') ?></h3>
                     <p class="text-primary text-sm mb-3">
-                        Comprehensive performance in labor matters, both in the <span class="font-semibold">defense of employers and workers</span>, covering labor claims, settlements, defenses, appeals, preventive consulting, and labor audits.
+                       <?php the_field('direito_do_trabalho_paragrafo_1'); ?>
                     </p>
                     <p class="text-primary text-sm">
-                        Structuring of internal routines focused on reducing liabilities and legal security.
+                        <?php the_field('direito_do_trabalho_paragrafo_2')?>
                     </p>
                 </div>
             </div>
@@ -132,12 +131,12 @@
                         <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-full mb-4">
                             <i class="fas fa-user-shield text-3xl text-primary"></i>
                         </div>
-                        <h3 class="text-secondary text-2xl font-bold mb-4">Social Security Law</h3>
+                        <h3 class="text-secondary text-2xl font-bold mb-4"><?php the_field('titulo_direito_previdenciario'); ?></h3>
                         <p class="text-secondary text-sm mb-3">
-                            Performance in <span class="font-semibold">granting, reviewing and restoring social security benefits, retirements, pensions, assistance benefits and disability benefits</span>.
+                            <?php the_field('direito_previdenciario_paragrafo_1'); ?>
                         </p>
                         <p class="text-secondary text-sm">
-                            In addition to administrative and judicial defenses before the INSS (National Social Security Institute) and Federal Courts, always focused on the realization of the insured's rights.
+                            <?php the_field('direito_previdenciario_paragrafo_2'); ?>
                         </p>
                     </div>
                 </div>
@@ -151,10 +150,9 @@
 <div class="bg-primary w-full px-4 py-10">
     <div class="flex flex-col items-center max-w-3xl mx-auto">
         <div class="flex flex-col items-center">
-            <h3 class="text-secondary text-center text-2xl font-bold mb-4">Need legal advice?</h3>
+            <h3 class="text-secondary text-center text-2xl font-bold mb-4"><?php the_field('titulo_chamada_para_acao'); ?></h3>
             <p class="text-secondary text-center text-sm mb-6 py-5 max-w-80">
-                <span class="font-semibold">Contact us</span> and discover how we can help you or your company 
-                with <span class="font-semibold">strategic and customized legal solutions!</span>
+                <?php the_field('texto_chamada_para_acao') ?>
             </p>
         </div>
 
@@ -163,7 +161,7 @@
                 <a style="text-decoration:none;" href="<?php echo get_permalink(get_page_by_path('contato')); ?>">
                 <button class="flex items-center justify-center bg-secondary text-primary font-bold py-3 px-8 rounded-lg hover:bg-secondary hover:text-secondary transition-colors duration-300">
                     <i class="fa-brands fa-whatsapp text-xl"></i>
-                    <span class="pl-1 underline decoration-solid">Contact Us</span>
+                    <span class="pl-1 underline decoration-solid"><?php the_field('botoes_fale_conosco') ?></span>
                 </button>
                 </a>
             </div>
@@ -172,7 +170,7 @@
                 <a style="text-decoration:none;" href="<?php echo get_permalink(get_page_by_path('contato')); ?>">
                 <button class="flex items-center justify-center bg-secondary text-primary font-bold py-3 px-8 rounded-lg hover:bg-secondary hover:text-secondary transition-colors duration-300">
                     <i class="fa-solid fa-envelope text-xl"></i>
-                    <span class="pl-1 underline decoration-solid">Contact Us</span>
+                    <span class="pl-1 underline decoration-solid"><?php the_field('botoes_fale_conosco') ?></span>
                 </button>
                 </a>
             </div>

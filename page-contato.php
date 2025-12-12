@@ -8,9 +8,9 @@ get_header();
         <div class="hidden w-1/2 border-l-8 border-primary @md:pl-4 @4xl:block"></div>
         
         <div class="py-2 px-2 @4xl:w-1/2">
-            <h1 class="font-bold text-3xl">Entre em Contato</h1>
+            <h1 class="font-bold text-3xl"><?php the_field('titulo_inicial'); ?></h1>
             <h2 class="text-sm font-bold mt-2">
-                Estamos prontos para atender você com excelência e dedicação.
+                <?php the_field('subtitulo_inicial') ?>
             </h2>
         </div>
     </div>
@@ -18,7 +18,7 @@ get_header();
     <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-secondary p-2 text-center">
         <div class="flex items-center max-w-sm">
             <p class="text-sm p-6">
-                Envie sua mensagem e nossa equipe entrará em contato para oferecer a <span class="font-bold">melhor solução jurídica</span> para o seu caso.
+                <?php the_field('texto_do_banner') ?>
             </p>
         </div>
     </div>
@@ -31,7 +31,7 @@ get_header();
 
             <!-- Formulário de Contato -->
             <div class="bg-primary text-secondary rounded-lg shadow-lg p-8">
-                <h3 class="text-secondary text-2xl font-bold mb-6">Formulário de Contato</h3>
+                <h3 class="text-secondary text-2xl font-bold mb-6"><?php the_field('titulo_formulario_de_contato') ?></h3>
                 
                 <form id="contact-form text-secondary" class="space-y-4">
                     <!-- Nome -->
@@ -131,11 +131,9 @@ get_header();
                                 <i class="fas fa-clock text-secondary"></i>
                             </div>
                             <div>
-                                <h4 class="text-primary font-semibold mb-1">Horário de Atendimento</h4>
+                                <h4 class="text-primary font-semibold mb-1"><?php the_field('titulo_informacoes_de_contato') ?></h4>
                                 <p class="text-primary text-sm">
-                                    Segunda a Sexta: 09:00 às 18:00<br>
-                                    Sábado e Domingo: Fechado<br>
-                                    <span class="text-xs italic">Atendimento mediante agendamento</span>
+                                    <?php the_field('texto_horario_de_atendimento') ?>
                                 </p>
                             </div>
                         </div>
@@ -145,7 +143,7 @@ get_header();
                     <div class="mt-6 pt-6 border-t-2">
                         <a style="text-decoration: none;" href="https://wa.me/5527988114221" target="_blank" class="flex items-center justify-center bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors duration-300">
                             <i class="fab fa-whatsapp text-2xl mr-2"></i>
-                            <span class="underline">Fale conosco pelo WhatsApp</span>
+                            <span class="underline"><?php the_field('whatsapp_cta') ?></span>
                         </a>
                     </div>
                 </div>

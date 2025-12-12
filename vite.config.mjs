@@ -3,9 +3,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(({ command }) => {
     const isBuild = command === 'build';
+    const themeBase = '/wp-content/themes/almeidacunha-tema/';
 
     return {
-        base: isBuild ? '/wp-content/themes/almeidacunha-tema/dist/' : '/',
+        base: isBuild ? `${themeBase}dist/` : '/',
         server: {
             port: 3000,
             cors: true,

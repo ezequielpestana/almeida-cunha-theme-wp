@@ -21,9 +21,9 @@
         <div class="hidden w-1/2 border-l-8 border-primary @md:pl-4 @4xl:block"></div>
 
         <div class="py-2 px-2 @4xl:w-1/2">
-            <h1 class="font-bold text-3xl">Do conflito à solução...</h1>
+            <h1 class="font-bold text-3xl"><?php the_field('inicio_hero_titulo')?></h1>
             <h2 class="text-sm font-bold mt-2">
-                Seu escritório de advocacia com atuação bilingue.
+                <?php the_field('inicio_hero_subtitulo')?>
             </h2>
         </div>
     </div>
@@ -31,34 +31,34 @@
     <div class="flex w-full justify-center 2xl:justify-start 2xl:text-left bg-primary text-secondary p-2 text-center">
         <div class="flex items-center max-w-sm">
             <p class="text-sm p-6">
-                <span class="font-bold">Advocacia e consultoria</span> com atuação bilíngue, focada em estratégia, prevenção de riscos e soluções 
-                jurídicas sob medida para <span class="font-bold">pessoas</span> e <span class="font-bold">empresas</span>.</p>
+                <?php the_field('inicio_hero_descricao')?>
         </div>
     </div>
 
 </div>
 
 <!-- imagens -->
-<div class="bg-primary w-full px-4 pb-10">
-    <div class="flex flex-col items-center max-w-1/0 ">
+<div class="flex justify-center bg-primary w-full px-4 pb-10">
+    <div class="flex flex-col items-center ">
 
-        <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
+        <div class="flex flex-col max-w-[544px] items-center my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
             <div class=" md:max-w-1/2  md:order-2 md:p-6 md2:border-r-2 border-white">       
-                <p class="p-2 py-6 text-secondary "><span class="text-secondary text-lg font-semibold">Vila Velha/ES</span> é o nosso ponto de partida e também o cenário das histórias que ajudamos a proteger.</p>
+                <p class="p-2 py-6 text-secondary "><?php the_field('inicio_sessao1_texto')?></p>
             </div>
-            <div class=" md:max-w-1/2  md:order-1  rounded-md p-2 bg-secondary">
+            <div class="md:max-w-1/2  md:order-1  rounded-md p-2 bg-secondary">
                 <img class="rounded-xl " src="<?php echo get_template_directory_uri(); ?>/resources/images/01.png" alt="Praia de itapuã vila velha es">
             </div>
         </div>
 
-        <div class="my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
-            <div class="md:max-w-1/2 md:p-6 md2:border-l-2 border-white"> 
-                <p class="p-2 py-6 text-secondary md:text-right">Atuamos com dedicação às demandas regionais, nacionais, e internacionais. <br><br>Acolhendo cada caso com atenção individual e compromisso com resultados consistentes.</p>
+        <div class="flex flex-col max-w-[544px] items-center my-2 md:flex md:flex-row md:items-center md:max-w-3xl">
+            <div class=" md:max-w-1/2 md:p-6 md2:border-l-2 border-white"> 
+                <p class="p-2 py-6 text-secondary md:text-right"><?php the_field('inicio_sessao2_texto')?></p>
             </div>  
             <div class="md:max-w-1/2 rounded-md p-2 bg-secondary"> 
                 <img class="rounded-xl" src="<?php echo get_template_directory_uri(); ?>/resources/images/02.png" alt="Vista da Terceira Ponte e do Morro do Moreno a partir do Convento da Penha, Vila Velha ES">
             </div>
         </div>
+
     </div>
 </div>
 
